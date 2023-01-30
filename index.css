@@ -70,7 +70,16 @@ body {
     }
 
     div.play-water-text {
-        margin: auto;
+        right: 15px;
+        top: 60px;
+        width: 20px;
+        position: absolute;
+    }
+
+    div.pause-water-text {
+        right: 11px;
+        top: 65px;
+        width: 30px;
         position: absolute;
     }
 
@@ -126,7 +135,16 @@ body {
     }
 
     div.play-water-text {
-        margin: auto;
+        right: 5px;
+        top: 40px;
+        width: 20px;
+        position: absolute;
+    }
+
+    div.pause-water-text {
+        right: 5px;
+        top: 42px;
+        width: 30px;
         position: absolute;
     }
 
@@ -182,7 +200,16 @@ body {
     }
 
     div.play-water-text {
-        margin: auto;
+        right: 5px;
+        top: 40px;
+        width: 20px;
+        position: absolute;
+    }
+
+    div.pause-water-text {
+        right: 5px;
+        top: 42px;
+        width: 30px;
         position: absolute;
     }
 
@@ -238,7 +265,16 @@ body {
     }
 
     div.play-water-text {
-        margin: auto;
+        right: 5px;
+        top: 40px;
+        width: 20px;
+        position: absolute;
+    }
+
+    div.pause-water-text {
+        right: 5px;
+        top: 42px;
+        width: 30px;
         position: absolute;
     }
 

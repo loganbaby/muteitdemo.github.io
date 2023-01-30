@@ -1,5 +1,6 @@
 var playIcon = document.getElementById("play-icon");
 var playText = document.getElementById("play-text");
+var playTextWord = document.getElementById("play-text-word");
 var playGifAnimation = document.getElementById("play-gif-animation");
 
 function refreshClassnameAnimation() {
@@ -12,7 +13,7 @@ function changePlayOnPause() {
     if (playIcon.id == "play-icon") {
         playIcon.src = "assets/pause-water.svg";
         playGifAnimation.src = "assets/animation.gif";
-        playText.src = "assets/pause-water-text.svg";
+        playTextWord.src = "assets/pause-water-text.svg";
 
         playIcon.id = "pause-icon";
         playGifAnimation.id = "pause-gif-animation";
@@ -24,7 +25,7 @@ function changePlayOnPause() {
 
         playIcon.src = "assets/Polygon-2.svg";
         playGifAnimation.src = "assets/paused-gif.png";
-        playText.src = "assets/play-water.svg";
+        playTextWord.src = "assets/play-water.svg";
 
         playIcon.id = "play-icon";
         playGifAnimation.id = "play-gif-animation";
