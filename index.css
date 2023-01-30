@@ -92,7 +92,7 @@ body {
     img.muteit-logo {
         top: 0;
         left: 0;
-        width: 15%;
+        width: 20%;
         height: auto;
         margin: 2.5%;
         position: absolute;
@@ -101,14 +101,14 @@ body {
     img.designed-by-unicorn-witnesses {
         top: 0;
         right: 0;
-        width: 12%;
+        width: 17%;
         height: auto;
         margin: 3%;
         position: absolute;
     }
 
     img.first-call-to-action {
-        height: 20vh;
+        height: 15vh;
         width: 100%;
 
         position: absolute;
@@ -125,7 +125,7 @@ body {
         justify-content: center;
         max-width: 100%;
         max-height: 100%;
-        width: 100%;
+        width: 1300px;
     }
 
     div.paused-water-icon-wrapper {
@@ -157,7 +157,7 @@ body {
     img.muteit-logo {
         top: 0;
         left: 0;
-        width: 40%;
+        width: 30%;
         height: auto;
         margin: 2.5%;
         position: absolute;
@@ -166,14 +166,14 @@ body {
     img.designed-by-unicorn-witnesses {
         top: 0;
         right: 0;
-        width: 40%;
+        width: 30%;
         height: auto;
         margin: 3%;
         position: absolute;
     }
 
     img.first-call-to-action {
-        height: 20vh;
+        height: 15vh;
         width: 100%;
 
         position: absolute;
