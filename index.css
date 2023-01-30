@@ -61,6 +61,7 @@ body {
         justify-content: center;
         max-width: 100%;
         max-height: 100%;
+        width: 100%;
     }
 
     div.paused-water-icon-wrapper {
@@ -115,6 +116,7 @@ body {
         justify-content: center;
         max-width: 100%;
         max-height: 100%;
+        width: 100%;
     }
 
     div.paused-water-icon-wrapper {
@@ -225,12 +227,13 @@ body {
         justify-content: center;
         max-width: 100%;
         max-height: 100%;
+        width: 900px;
     }
 
     div.paused-water-icon-wrapper {
         margin: auto;
         position: absolute;
-        width: 10px;
+        width: 20px;
     }
 
     div.play-water-text {
