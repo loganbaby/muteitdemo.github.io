@@ -9,7 +9,7 @@ function refreshClassnameAnimation() {
     playGifAnimation.classList.add("gif-webframe-anim");
 }
 
-function changePlayOnPause() {
+async function changePlayOnPause() {
     if (playIcon.id == "play-icon") {
         playIcon.src = "assets/pause-water.svg";
         playGifAnimation.src = "assets/animation.webp";
