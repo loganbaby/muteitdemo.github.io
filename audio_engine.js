@@ -7,7 +7,7 @@ var waveSounds = [
 ];
 
 var webApiSounds = [];
-window.onload = initWebApiSounds();
+window.onloadstart = initWebApiSounds();
 
 async function initWebApiSounds() {
     for (let i = 0; i < waveSounds.length; ++i) {
