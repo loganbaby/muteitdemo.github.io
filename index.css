@@ -55,22 +55,40 @@ body {
 
 @keyframes PlayPauseAppearance {
     0% {
-        transform: translateX(-150%);
-        transform: translateY(-190%);
+        transform: translateY(-150%);
     }
 
-    50% {
-        transform: translateX(15%);
-        transform: translateY(40%);
+    15% {
+        transform: translateY(5%);
+    }
+
+    30% {
+        transform: translateY(-5%);
+    }
+
+    45% {
+        transform: translateY(3%);
+    }
+
+    60% {
+        transform: translateY(-3%);
+    }
+
+    75% {
+        transform: translateY(1%);
+    }
+
+    85% {
+        transform: translateY(-1%);
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
 .text-play-pause-amimation {
-    animation: PlayPauseAppearance 0.8s linear;
+    animation: PlayPauseAppearance 0.5s linear;
 }
 
 @media screen and (min-width: 769px) {
