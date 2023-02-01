@@ -299,7 +299,7 @@ body {
     div.paused-water-icon-wrapper {
         margin: auto;
         position: absolute;
-        width: 20px;
+        width: 15px;
     }
 
     div.play-water-text {
@@ -310,7 +310,7 @@ body {
     }
 
     div.pause-water-text {
-        right: 5px;
+        right: 8px;
         top: 42px;
         width: 30px;
         position: absolute;
