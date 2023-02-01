@@ -7,6 +7,10 @@ function refreshClassnameAnimation() {
     playGifAnimation.classList.remove("gif-webframe-anim");
     void playGifAnimation.offsetWidth;
     playGifAnimation.classList.add("gif-webframe-anim");
+
+    playTextWord.classList.remove("text-play-pause-amimation");
+    void playTextWord.offsetWidth;
+    playTextWord.classList.add("text-play-pause-amimation");
 }
 
 async function changePlayOnPause() {
@@ -19,6 +23,10 @@ async function changePlayOnPause() {
         playGifAnimation.id = "pause-gif-animation";
         playText.id = "pause-text";
         playText.className = "pause-water-text";
+
+        playTextWord.classList.remove("text-play-pause-amimation");
+        void playTextWord.offsetWidth;
+        playTextWord.classList.add("text-play-pause-amimation");
     } else { 
         playIcon = document.getElementById("pause-icon"); 
         playText = document.getElementById("pause-text");

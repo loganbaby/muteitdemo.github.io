@@ -53,6 +53,26 @@ body {
     animation: Appearance 0.5s forwards;
 }
 
+@keyframes PlayPauseAppearance {
+    0% {
+        transform: translateX(-150%);
+        transform: translateY(-190%);
+    }
+
+    50% {
+        transform: translateX(15%);
+        transform: translateY(40%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.text-play-pause-amimation {
+    animation: PlayPauseAppearance 0.8s linear;
+}
+
 @media screen and (min-width: 769px) {
 
     div.gif-animation-wrapper {
