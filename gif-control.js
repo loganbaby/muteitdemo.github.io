@@ -12,7 +12,7 @@ function refreshClassnameAnimation() {
 function changePlayOnPause() {
     if (playIcon.id == "play-icon") {
         playIcon.src = "assets/pause-water.svg";
-        playGifAnimation.src = "assets/animation.gif";
+        playGifAnimation.src = "assets/animation.webp";
         playTextWord.src = "assets/pause-water-text.svg";
 
         playIcon.id = "pause-icon";

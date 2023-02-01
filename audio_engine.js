@@ -1,10 +1,10 @@
 var waveSounds = [
-    'https://loganbaby.github.io/muteitdemo.github.io/assets/audio/watertap.wav',
-    'https://loganbaby.github.io/muteitdemo.github.io/assets/audio/watertap(1).wav',
-    'https://loganbaby.github.io/muteitdemo.github.io/assets/audio/waterfall.wav',
-    'https://loganbaby.github.io/muteitdemo.github.io/assets/audio/water-flow(1).wav',
-    'https://loganbaby.github.io/muteitdemo.github.io/assets/audio/water-flow(2).wav',
-    'https://loganbaby.github.io/muteitdemo.github.io/assets/audio/flow-water.wav',
+    './assets/audio/watertap.wav',
+    './assets/audio/watertap(1).wav',
+    './assets/audio/waterfall.wav',
+    './assets/audio/water-flow(1).wav',
+    './assets/audio/water-flow(2).wav',
+    './assets/audio/flow-water.wav'
 ];
 
 var webApiSounds = [];
@@ -13,7 +13,7 @@ window.onload = initWebApiSounds();
 async function initWebApiSounds() {
     for (let i = 0; i < waveSounds.length; ++i) {
         webApiSounds[i] = new Pizzicato.Sound({ 
-            source: 'file', 
+            source: 'file',
             options: { path: waveSounds[i], loop: true }
         }, function(error) {
             if (!error)
