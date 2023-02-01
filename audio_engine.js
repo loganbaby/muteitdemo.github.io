@@ -1,10 +1,10 @@
 var waveSounds = [
-    './assets/audio/watertap.wav',
-    './assets/audio/watertap(1).wav',
-    './assets/audio/waterfall.wav',
-    './assets/audio/water-flow(1).wav',
-    './assets/audio/water-flow(2).wav',
-    './assets/audio/flow-water.wav'
+    './assets/audio/watertap.ogg',
+    './assets/audio/watertap_1_.ogg',
+    './assets/audio/waterfall.ogg',
+    './assets/audio/water-flow_1_.ogg',
+    './assets/audio/water-flow_2_.ogg',
+    './assets/audio/flow-water.ogg'
 ];
 
 var webApiSounds = [];
@@ -14,7 +14,8 @@ async function initWebApiSounds() {
     for (let i = 0; i < waveSounds.length; ++i) {
         webApiSounds[i] = new Pizzicato.Sound({ 
             source: 'file',
-            options: { path: waveSounds[i], loop: true }
+            options: { path: waveSounds[i], loop: true },
+            type: 'audio/ogg'
         }, function(error) {
             if (!error)
                 console.log('Sound file ' + waveSounds[i] + ' ready to use');
