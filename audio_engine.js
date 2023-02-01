@@ -15,8 +15,8 @@ async function initWebApiSounds() {
         webApiSounds[i] = new Pizzicato.Sound({ 
             source: 'file',
             options: { path: waveSounds[i], loop: true },
-            type: 'audio/ogg',
-            codecs: 'vorbis'
+            type: 'audio/ogg; codecs=vorbis',
+            preload: true
         }, function(error) {
             if (!error)
                 console.log('Sound file ' + waveSounds[i] + ' ready to use');
