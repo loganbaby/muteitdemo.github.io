@@ -17,7 +17,6 @@
     <link rel="preload" as="image" href="./assets/animation.gif">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aurora.js/0.4.2/aurora.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"> </script>
     <script type="text/javascript" src="./audio_engine.js"></script>
 </head>
 
@@ -50,21 +49,5 @@
 
     <script type="text/javascript" src="./gif-control.js"></script>
 </body>
-
-  <script>
-    window.oncanplaythrough = initWebApiSounds();
-
-    window.addEventListener("load", function() {
-        document.body.classList.add('loaded_hiding');
-        window.setTimeout(function () {
-            document.body.classList.add('loaded');
-            document.body.classList.remove('loaded_hiding');
-        }, 500);
-
-        $('body').animate({
-            opacity: 1,
-        }, 500);
-    });
-  </script>
 
 </html>
