@@ -22,6 +22,13 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+    </div>
+
     <div class="logo-designed-wrapper">
         <img src="./assets/logo-muteit-sound-helper.svg" class="muteit-logo">
         <img src="./assets/designed-by-unicorn-witnesses.svg" class="designed-by-unicorn-witnesses">
@@ -48,10 +55,16 @@
     window.oncanplaythrough = initWebApiSounds();
 
     window.addEventListener("load", function() {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 500);
+
         $('body').animate({
             opacity: 1,
         }, 500);
     });
-  </script> 
+  </script>
 
 </html>
