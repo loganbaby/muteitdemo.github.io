@@ -12,6 +12,7 @@ function initWebApiSounds() {
     for (let i = 0; i < waveSounds.length; ++i) {
         webApiSounds[i] = new Pizzicato.Sound({ 
             source: 'file',
+            preload: 'auto',
             options: { path: waveSounds[i], loop: true }
         }, function(error) {
             if (!error)
