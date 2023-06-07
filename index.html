@@ -45,9 +45,9 @@
 </body>
 
   <script>
-    window.addEventListener("load", function() {
-        initWebApiSounds();
+    window.oncanplaythrough = initWebApiSounds();
 
+    window.addEventListener("load", function() {
         $('body').animate({
             opacity: 1,
         }, 500);

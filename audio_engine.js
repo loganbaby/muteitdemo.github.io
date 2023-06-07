@@ -13,7 +13,7 @@ function initWebApiSounds() {
         webApiSounds[i] = new Pizzicato.Sound({ 
             source: 'file',
             preload: 'auto',
-            options: { path: waveSounds[i], loop: true }
+            options: { path: waveSounds[i], loop: true, preload: 'auto' }
         }, function(error) {
             if (!error)
                 console.log('Sound file ' + waveSounds[i] + ' ready to use');
