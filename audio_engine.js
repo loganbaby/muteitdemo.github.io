@@ -8,8 +8,6 @@ var waveSounds = [
 
 var webApiSounds = [];
 
-window.onloadstart = initWebApiSounds();
-
 function initWebApiSounds() {
     for (let i = 0; i < waveSounds.length; ++i) {
         webApiSounds[i] = new Pizzicato.Sound({ 
